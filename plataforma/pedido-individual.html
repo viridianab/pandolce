@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0, user-scalable=no">
+    <title>pandolce - Dashboard</title>
+    <meta name="theme-color" content="#000000">
+    <meta name="msapplication-navbutton-color" content="#000000">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="icon" sizes="192x192" href="../assets/img/favicon/favicon-192-2.png">
+    <link rel="stylesheet" media="screen" href="../assets/css/style.css">
+</head>
+
+<body>
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <aside class="side">
+            <img src="../assets/img/pandolce-blanco.svg" alt="pandolce" width="100%">
+            <nav class="sidebar">
+                <div class="navbar-item">
+                    <a href="index.html">Clientes</a>
+                </div>
+                <div class="navbar-item">
+                    <a href="pasteles.html">Pasteles</a>
+                </div>
+                
+            </nav>
+        </aside>
+        <!-- Seccion: Contenido -->
+        <div class="contenido">
+            <h2 class="titulo">Pedidos / <span><b>Ana López</b></span></h2>
+            <br>
+            
+            <div class="seccion--pedido">
+
+                <div class="formulario">
+
+                    <div class="campo">
+                        <label for="">Nombre completo</label>
+                        <input type="text" value="Ana López" disabled>
+                    </div>
+                    
+                    <div class="campo">
+                        <label for="">Teléfono</label>
+                        <input type="number" value="6860000000" disabled>
+                    </div>
+                    
+                    <div class="campo">
+                        <label for="">Correo Electrónico</label>
+                        <input type="email" value="anita@gmail.com" disabled>
+                    </div>
+                    
+                    <div class="campo">
+                        <label for="">Descripción del pastel</label>
+                        <textarea name="" id="" cols="30" rows="5" disabled
+                        >Hola, me gustaría pedir el pastel de fresas pero si se puede agregar un adorno de boda, que diga felicitaciones. Muchas gracias.</textarea>
+                    </div>
+                    
+                    <div class="campo">
+                        <label for="">Sabor del pastel</label>
+                        <select name="sabores" id="sabores" disabled>
+                            <option>Chocolate</option>
+                            <option>Vainilla</option>
+                            <option selected>Fresa</option>
+                            <option>Nuez</option>
+                            <option>Zanahoria</option>
+                        </select>
+                    </div>
+                    
+                    <div class="campo">
+                        <label for="">¿Desea adornar el pastel?</label>
+                        <div class="elementos">
+                            <div>
+                                <input type="checkbox" id="no" name="no" disabled>
+                                <label for="no">No</label>
+                            </div>
+                    
+                            <div>
+                                <input type="checkbox" id="adornocumple" name="adornocumple" disabled>
+                                <label for="adornocumple">Adorno de cumpleaños</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="adornonormal" name="adornonormal" checked disabled>
+                                <label for="adornonormal">Adorno de felicitaciones</label>
+                            </div>
+                    
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
